@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+       <div class="select-dorm">
+           <ul>
+               <li id="fayerweather">
+                   <p>Fayerweather</p>
+                </li>
+               <li id="gorham">
+                    <p>Gorham</p>
+                </li>
+                <li id="heathman">
+                    <p>Heathman</p>
+                </li>
+                
+               <li id="dorr">
+                    <p>Dorr</p>
+               </li>
+           </ul>
+       </div>
+       <div class="layout-designer">
+            <div class="layout-grid"></div>
+            <div class="toolbox-container">
+                <ul class="tool-tabs">
+                    <li id="basic-tab">Basic</li>
+                    <li id="appliances-tab">Appliances</li>
+                    <li id="tech-tab">Tech</li>
+                    <li id="accessories-tab">Accessories</li>
+                </ul>
+                <div class="toolbox">
+                    <div class="basic">
+                        <div class="bed furniture orig"  id="bed" draggable="true"></div>
+                        <div class="desk furniture orig"  id="desk" draggable="true"></div>
+                        <div class="dresser furniture orig" id="dresser" draggable="true"></div>
+                    </div>
+                    <div class="appliances">
+                        <div class="fridge furniture orig" id="fridge" draggable="true"></div>
+                        <div class="microwave furniture orig" id="microwave" draggable="true"></div>
+                    </div>
+                    <div class="tech">
+
+                    </div>
+                    <div class="accessories">
+                        <div class="rug furniture orig" id="rug" draggable="true"></div>
+                        <div class="plant furniture orig" id="plant" draggable="true"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modebox">
+                <div class="generate-tool"></div>
+                <div class="rotate-tool"></div>
+                <div class="undo-tool"></div>
+            </div>
+       </div>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/tabUI.js"></script>
+    </body>
+</html> 
